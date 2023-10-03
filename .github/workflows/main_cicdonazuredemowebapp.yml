@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: cicdonazuredemowebapp
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1E17380697364975B7DD38D3CFEB39A9 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B85B46C3B7A24FE09A3468D965ED1082 }}
         package: ${{env.DOTNET_ROOT}}/myapp
 
